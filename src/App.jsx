@@ -1,4 +1,5 @@
 import { Routes, Route, Link } from "react-router-dom";
+import './styles.css';
 import Inicio from "./pagina/inicio";
 import MarcoTeorico from "./pagina/marcoT";
 import MA from "./pagina/modeloA";
@@ -9,30 +10,30 @@ import Video from "./pagina/video";
 export default function App(){
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">Mercería Calderon</Link>
+          <Link className="navbar-brand" to="/">🧶 Mercería Calderón</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item"><Link className="nav-link" to="/">Inicio</Link></li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Análisis Estructurado
                 </a>
-                <ul class="dropdown-menu">
-                  <li><h6 class="dropdown-header">Modelo Esencial</h6></li>
+                <ul className="dropdown-menu">
+                  <li><h6 className="dropdown-header">Modelo Esencial</h6></li>
                   <li>
                     <Link className="dropdown-item" to="/modelo-ambiental">
-                      Modelo Ambiental
+                      📊 Modelo Ambiental
                     </Link>
                   </li>
                   <li>
                     <Link className="dropdown-item" to="/modelo-comportamiento">
-                      Modelo de Comportamiento
+                      🔄 Modelo de Comportamiento
                     </Link>
                   </li>
                 </ul>

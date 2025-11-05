@@ -1,4 +1,5 @@
 import logo from '../assets/MA/dc.jpg';
+import '../assets/MA/styles.css';
 
 export default function MA() {
   return (

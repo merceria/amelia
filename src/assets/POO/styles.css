@@ -1,0 +1,63 @@
+/* Estilos para Modelo de Comportamiento - Mercería Calderón */
+
+.modelo-comportamiento {
+  background: linear-gradient(135deg, #faf8f5 0%, #f5f0eb 100%);
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+/* Header Section */
+.modelo-comportamiento .header-section {
+  background: linear-gradient(135deg, #a8607d 0%, #8b4789 50%, #6b3667 100%);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(139, 71, 137, 0.3);
+  margin-bottom: 2rem !important;
+}
+
+.modelo-comportamiento .header-section h1 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.modelo-comportamiento .header-section .lead {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+/* Cards */
+.modelo-comportamiento .card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.modelo-comportamiento .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.modelo-comportamiento .card-header.bg-gradient {
+  background: linear-gradient(135deg, #8b4789 0%, #a8607d 100%) !important;
+  border-bottom: 3px solid #c97c7f;
+  padding: 1.2rem 1.5rem;
+}
+
+.modelo-comportamiento .card-header h2 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.modelo-comportamiento .card-body {
+  padding: 2rem;
+  background-color: #fff;
+}
