@@ -1,0 +1,31 @@
+.text-brown {
+    color: #5d4037;
+}
+.bg-primary {
+    background-color: #8d6e63 !important;
+}
+.btn-primary {
+    background-color: #8d6e63;
+    border-color: #8d6e63;
+}
+.btn-primary:hover {
+    background-color: #6d4c41;
+    border-color: #6d4c41;
+}
+.btn-outline-primary {
+    color: #8d6e63;
+    border-color: #8d6e63;
+}
+.btn-outline-primary:hover {
+    background-color: #8d6e63;
+    border-color: #8d6e63;
+    color: white;
+}
+.hover-shadow:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+.category-card, .card {
+    transition: all 0.3s ease;
+}

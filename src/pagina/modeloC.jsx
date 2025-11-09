@@ -1,6 +1,6 @@
-// src/pagina/modeloA.jsx
 import React from 'react';
 import '../assets/MC/styles.css';
+import dte from '../assets/MC/DTE.jpg';
 
 export default function MC() {
   return (
@@ -19,7 +19,6 @@ export default function MC() {
         </div>
       </div>
 
-      {/* Diagrama de Flujo de Datos */}
       <div className="row mb-4">
         <div className="col-12">
           <div className="card shadow-sm border-0">
@@ -33,7 +32,6 @@ export default function MC() {
               <div className="diagram-placeholder text-center p-5">
                 <i className="bi bi-image diagram-icon"></i>
                 <p className="mt-3 text-muted">Inserta aquí tu diagrama de flujo de datos</p>
-                {/* Aquí va tu imagen del diagrama */}
                 {/* <img src={dfdImage} className="img-fluid diagram-image" alt="Diagrama de Flujo de Datos" /> */}
               </div>
               <div className="diagram-info mt-4 p-3">
@@ -46,8 +44,6 @@ export default function MC() {
           </div>
         </div>
       </div>
-
-      {/* Diagrama de Transición de Estados */}
       <div className="row mb-4">
         <div className="col-12">
           <div className="card shadow-sm border-0">
@@ -58,11 +54,8 @@ export default function MC() {
               </h2>
             </div>
             <div className="card-body">
-              <div className="diagram-placeholder text-center p-5">
-                <i className="bi bi-image diagram-icon"></i>
-                <p className="mt-3 text-muted">Inserta aquí tu diagrama de transición de estados</p>
-                {/* Aquí va tu imagen del diagrama */}
-                {/* <img src={dteImage} className="img-fluid diagram-image" alt="Diagrama de Transición de Estados" /> */}
+              <div className="card-body text-center">
+                <img src={dte} className="img-fluid rounded shadow-sm diagram-image" alt="Diagrama de Transición de Estados" />
               </div>
               <div className="diagram-info mt-4 p-3">
                 <h5 className="text-primary-custom">
@@ -75,7 +68,6 @@ export default function MC() {
         </div>
       </div>
 
-      {/* Diagrama Entidad-Relación */}
       <div className="row mb-4">
         <div className="col-12">
           <div className="card shadow-sm border-0">
@@ -89,7 +81,6 @@ export default function MC() {
               <div className="diagram-placeholder text-center p-5">
                 <i className="bi bi-image diagram-icon"></i>
                 <p className="mt-3 text-muted">Inserta aquí tu diagrama entidad-relación</p>
-                {/* Aquí va tu imagen del diagrama */}
                 {/* <img src={derImage} className="img-fluid diagram-image" alt="Diagrama Entidad-Relación" /> */}
               </div>
               <div className="diagram-info mt-4 p-3">
