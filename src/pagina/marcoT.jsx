@@ -4,6 +4,11 @@ import m1 from '../assets/marcot/entidad.PNG';
 import m2 from '../assets/marcot/proceso.PNG';
 import m3 from '../assets/marcot/flujo.PNG';
 import m4 from '../assets/marcot/almacen.PNG';
+import m5 from '../assets/marcot/asociacion.PNG';
+import m6 from '../assets/marcot/agregacion.PNG';
+import m7 from '../assets/marcot/composicion.PNG';
+import m8 from '../assets/marcot/herencia.PNG';
+import m9 from '../assets/marcot/implementacion.PNG';
 
 export default function MarcoT() {
   const scrollToSection = (e, id) => {
@@ -255,22 +260,46 @@ export default function MarcoT() {
 
               <div id="relaciones" className="mb-4">
                 <h3 className="h5 fw-semibold mb-3">Tipos de Relación</h3>
-                <dl className="row mb-0">
-                  <dt className="col-sm-3 mb-3">Asociación</dt>
-                  <dd className="col-sm-9 mb-3">Relación estructural que describe una conexión bidireccional o unidireccional entre dos clases.</dd>
-                  
-                  <dt className="col-sm-3 mb-3">Agregación</dt>
-                  <dd className="col-sm-9 mb-3">Relación "tiene-un" débil donde los objetos componentes pueden existir independientemente del objeto contenedor.</dd>
-                  
-                  <dt className="col-sm-3 mb-3">Composición</dt>
-                  <dd className="col-sm-9 mb-3">Relación "tiene-un" fuerte donde los objetos componentes no pueden existir sin el objeto contenedor.</dd>
-                  
-                  <dt className="col-sm-3 mb-3">Herencia</dt>
-                  <dd className="col-sm-9 mb-3">Relación "es-un" que permite que una clase herede atributos y métodos de otra clase.</dd>
-                  
-                  <dt className="col-sm-3 mb-3">Dependencia</dt>
-                  <dd className="col-sm-9 mb-3">Relación temporal donde una clase utiliza los servicios de otra clase de manera ocasional.</dd>
-                </dl>
+                <div className="row">
+                    <div className="col-md-6 mb-3">
+                      <div className="border p-3">
+                        <img src={m5} alt="Entidades" className="img-fluid mb-2" />
+                        <h5 className="h6 fw-semibold">Asociación</h5>
+                        <p className="mb-0">Relación estructural que describe una conexión bidireccional o unidireccional entre dos clases.</p>
+                      </div>
+                    </div>
+                    
+                    <div className="col-md-6 mb-3">
+                      <div className="border p-3">
+                        <img src={m6} alt="Flujos de Datos" className="img-fluid mb-2" />
+                        <h5 className="h6 fw-semibold">Agregación</h5>
+                        <p className="mb-0">Relación "tiene-un" débil donde los objetos componentes pueden existir independientemente del objeto contenedor.</p>
+                      </div>
+                    </div>
+                    
+                    <div className="col-md-6 mb-3">
+                      <div className="border p-3">
+                        <img src={m7} alt="Procesos" className="img-fluid mb-2" />
+                        <h5 className="h6 fw-semibold">Composición</h5>
+                        <p className="mb-0">Relación "tiene-un" fuerte donde los objetos componentes no pueden existir sin el objeto contenedor.</p>
+                      </div>
+                    </div>
+                    
+                    <div className="col-md-6 mb-3">
+                      <div className="border p-3">
+                        <img src={m8} alt="Almacén de datos" className="img-fluid mb-2" />
+                        <h5 className="h6 fw-semibold">Herencia</h5>
+                        <p className="mb-0">Relación "es-un" que permite que una clase herede atributos y métodos de otra clase.</p>
+                      </div>
+                    </div>
+                    <div className="col-md-6 mb-3">
+                      <div className="border p-3">
+                        <img src={m9} alt="Procesos" className="img-fluid mb-2" />
+                        <h5 className="h6 fw-semibold">Implementación</h5>
+                        <p className="mb-0">Relación donde un elemento declara que realiza o lleva a cabo la funcionalidad especificada por otro elemento.</p>
+                      </div>
+                    </div>
+                  </div>
               </div>
 
               <div id="metodologia" className="mb-4">
