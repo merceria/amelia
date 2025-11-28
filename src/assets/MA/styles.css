@@ -1,14 +1,7 @@
-/* ============================================
-   MODELO AMBIENTAL - STYLES
-   Sistema de Gestión de Ventas
-   ============================================ */
-
-/* === VARIABLES Y RESET === */
 * {
   box-sizing: border-box;
 }
 
-/* === CONTENEDOR PRINCIPAL === */
 .ma-wrapper {
   background: linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 100%);
   min-height: 100vh;
@@ -23,7 +16,6 @@
   margin: 0 auto;
 }
 
-/* === HEADER PRINCIPAL === */
 .ma-header {
   padding-bottom: 3rem;
 }
@@ -44,12 +36,10 @@
   letter-spacing: 0.5px;
 }
 
-/* === SECCIONES === */
 .ma-section {
   margin-bottom: 2.5rem;
 }
 
-/* === CARDS === */
 .ma-card {
   background: #ffffff;
   border-radius: 12px;
@@ -91,7 +81,6 @@
   padding: 2.5rem;
 }
 
-/* === DECLARACIÓN DE PROPÓSITO === */
 .ma-purpose-grid {
   display: grid;
   gap: 1.75rem;
@@ -169,7 +158,6 @@
   flex-shrink: 0;
 }
 
-/* === OBJETIVO === */
 .ma-objective {
   background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   border: 2px solid #93c5fd;
@@ -373,7 +361,6 @@
   }
 }
 
-/* === ANIMACIONES === */
 @media (prefers-reduced-motion: no-preference) {
   .ma-card {
     animation: ma-fadeInUp 0.6s ease-out;
@@ -390,7 +377,7 @@
     }
   }
 }
-/* === TABS Y EVENTOS INTERACTIVOS === */
+
 .ma-tabs-container {
   display: flex;
   gap: 1rem;
@@ -500,32 +487,3 @@
   border-color: #f59e0b;
   color: #92400e;
 }
-
-/* Elimina o comenta estos estilos antiguos */
-/*
-.ma-events-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-
-.ma-event-category {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  padding: 0;
-  overflow: hidden;
-}
-
-.ma-full-width {
-  grid-column: 1 / -1;
-}
-
-.ma-category-header {
-  padding: 1.5rem 1.75rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  border-bottom: 2px solid;
-}
-*/

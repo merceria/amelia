@@ -1,16 +1,11 @@
-/* Estilos para Marco Teórico - Documento Formal */
-
-/* Tipografía y justificación - Solo para marco-teorico-container */
 .marco-teorico-container .text-justify {
   text-align: justify;
 }
 
-/* Espaciado de línea mejorado */
 .marco-teorico-container .lh-lg {
   line-height: 1.8;
 }
 
-/* Títulos con estilo formal - Solo dentro de marco-teorico-container */
 .marco-teorico-container h1, 
 .marco-teorico-container h2, 
 .marco-teorico-container h3, 
@@ -38,13 +33,11 @@
   font-size: 1.15rem;
 }
 
-/* Párrafos con espaciado formal */
 .marco-teorico-container p {
   color: #333;
   margin-bottom: 1rem;
 }
 
-/* Listas de definición formal */
 .marco-teorico-container dl {
   margin-bottom: 1.5rem;
 }
@@ -58,19 +51,16 @@
   color: #555;
 }
 
-/* Listas ordenadas formales */
 .marco-teorico-container .list-group-item {
   background-color: transparent;
   line-height: 1.7;
 }
 
-/* Strong con color más oscuro */
 .marco-teorico-container strong {
   color: #2c3e50;
   font-weight: 600;
 }
 
-/* Bordes sutiles */
 .marco-teorico-container .border-top {
   border-top: 1px solid #dee2e6 !important;
 }
@@ -79,13 +69,11 @@
   border-bottom: 1px solid #dee2e6 !important;
 }
 
-/* Espaciado del contenedor */
 .marco-teorico-container .container,
 .marco-teorico-container .container-fluid {
   max-width: 1200px;
 }
 
-/* Navegación lateral */
 .marco-teorico-container .sticky-top {
   position: sticky;
   z-index: 100;
@@ -101,7 +89,6 @@
   padding-left: 0.5rem !important;
 }
 
-/* Scroll suave - este puede quedar global si lo deseas */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 20px;

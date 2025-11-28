@@ -22,7 +22,6 @@ export default function MarcoT() {
     <div className="marco-teorico-container">
       <div className="container-fluid py-5">
         <div className="row">
-          {/* Navegación lateral */}
           <div className="col-md-3 col-lg-2">
             <nav className="sticky-top pt-3" style={{top: '20px'}}>
               <h6 className="text-muted text-uppercase small mb-3">Contenido</h6>
@@ -59,16 +58,13 @@ export default function MarcoT() {
             </nav>
           </div>
 
-          {/* Contenido principal */}
           <div className="col-md-9 col-lg-10">
-            
-            {/* Encabezado */}
+
             <header className="mb-5 pb-4 border-bottom">
               <h1 className="display-5 fw-bold mb-2">Marco Teórico</h1>
               <p className="text-muted fs-5">Análisis y Diseño de Sistemas de Información</p>
             </header>
 
-            {/* Introducción */}
             <section id="introduccion" className="mb-5">
               <h2 className="h3 fw-bold mb-3">Introducción</h2>
               <p className="text-justify lh-lg">
@@ -78,7 +74,6 @@ export default function MarcoT() {
               </p>
             </section>
 
-            {/* Modelo Esencial */}
             <section id="modelo-esencial" className="mb-5">
               <h2 className="h3 fw-bold mb-4 pt-3 border-top">Modelo Esencial</h2>
               
@@ -91,7 +86,6 @@ export default function MarcoT() {
                 </p>
               </div>
 
-              {/* Modelo Ambiental */}
               <div id="modelo-ambiental" className="mb-5">
                 <h3 className="h4 fw-semibold mb-3">1. Modelo Ambiental</h3>
                 
@@ -167,7 +161,6 @@ export default function MarcoT() {
                 </div>
               </div>
 
-              {/* Modelo de Comportamiento */}
               <div id="modelo-comportamiento" className="mb-5">
                 <h3 className="h4 fw-semibold mb-3">2. Modelo de Comportamiento</h3>
                 
@@ -222,7 +215,6 @@ export default function MarcoT() {
               </div>
             </section>
 
-            {/* POO */}
             <section id="poo" className="mb-5">
               <h2 className="h3 fw-bold mb-4 pt-3 border-top">Análisis Orientado a Objetos (POO)</h2>
               

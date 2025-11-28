@@ -9,15 +9,13 @@ export default function MA() {
   return (
     <div className="ma-wrapper">
       <div className="ma-container">
-        
-        {/* Header Principal */}
+
         <header className="ma-header">
           <div className="ma-header-decoration"></div>
           <h1 className="ma-main-title">Modelo Ambiental</h1>
           <p className="ma-main-subtitle">Sistema de Gestión de Ventas - Análisis Estructurado</p>
         </header>
 
-        {/* Declaración de Propósito */}
         <section className="ma-section">
           <div className="ma-card">
             <div className="ma-card-header">
@@ -66,7 +64,6 @@ export default function MA() {
           </div>
         </section>
 
-        {/* Diagrama de Contexto */}
         <section className="ma-section">
           <div className="ma-card">
             <div className="ma-card-header">
@@ -88,7 +85,6 @@ export default function MA() {
           </div>
         </section>
 
-        {/* Lista de Acontecimientos */}
         <section className="ma-section">
           <div className="ma-card">
             <div className="ma-card-header">
@@ -99,7 +95,6 @@ export default function MA() {
             </div>
             
             <div className="ma-card-body">
-              {/* Botones de selección */}
               <div className="ma-tabs-container">
                 <button 
                   className={`ma-tab-button ${activeCategory === 'cliente' ? 'ma-tab-active' : ''}`}
@@ -136,7 +131,6 @@ export default function MA() {
                 </button>
               </div>
 
-              {/* Contenido según categoría activa */}
               <div className="ma-tab-content">
                 {activeCategory === 'cliente' && (
                   <div className="ma-event-card">
