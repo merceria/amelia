@@ -2,22 +2,15 @@ import React from 'react';
 import '../assets/MC/styles.css';
 import dte from '../assets/MC/DTE.jpg';
 import ER from '../assets/MC/ER.png';
+import DFD from '../assets/MC/DFD.png';
 
 export default function MC() {
   return (
     <div className="container modelo-comportamiento">
       <div className="row">
-        <div className="col-12">
-          <div className="header-section text-center py-4 mb-4">
-            <h1 className="display-4 fw-bold">
-              <i className="bi bi-diagram-2 me-3"></i>
-              Modelo de Comportamiento
-            </h1>
-            <p className="lead text-white mt-3">
-              Análisis del comportamiento del sistema de ventas
-            </p>
-          </div>
-        </div>
+        <header className="poo-header">
+          <h1 className="poo-main-title">Modelo de Comportamiento</h1>
+        </header>
       </div>
 
       <div className="row mb-4">
@@ -31,15 +24,7 @@ export default function MC() {
             </div>
             <div className="card-body">
               <div className="diagram-placeholder text-center p-5">
-                <i className="bi bi-image diagram-icon"></i>
-                <p className="mt-3 text-muted">Inserta aquí tu diagrama de flujo de datos</p>
-                {/* <img src={dfdImage} className="img-fluid diagram-image" alt="Diagrama de Flujo de Datos" /> */}
-              </div>
-              <div className="diagram-info mt-4 p-3">
-                <h5 className="text-primary-custom">
-                  <i className="bi bi-info-circle me-2"></i>
-                  Descripción
-                </h5>
+                <img src={DFD} className="img-fluid diagram-image" alt="Diagrama de Flujo de Datos" />
               </div>
             </div>
           </div>
@@ -223,7 +208,7 @@ export default function MC() {
                         <tr>
                             <td><strong>idProducto</strong></td>
                             <td><span class="badge-type">String</span></td>
-                            <td>[A-Z0-9]{4,20}</td>
+                            <td>[A-Z0-9]</td>
                             <td>No</td>
                             <td><span class="badge-rule">Único</span> <span class="badge-rule">Inmutable</span></td>
                             <td>Llave identificadora del hilado</td>
