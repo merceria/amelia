@@ -3,7 +3,7 @@ import '../assets/contacto/styles.css';
 export default function Contacto() {
   const integrantes = [
     "Quispe Choque Ivone    (MODELO AMBIENTAL, RECOPILACION INFORME)",
-    "Angulo Balboa Brian    (PAGINA, MARCO TEORICO, VIDEO)",
+    "Angulo Balboa Brian    (PAGINA WEB, MARCO TEORICO, VIDEO)",
     "Guadalajara Rojar Omir Nick    (PARADIGMA ORIENTADO A OBJETOS, DICCIONARIO DE DATOS)",
     "Maraza Cantuta Elian David     (DICCIONARIO DE DATOS)",
     "Cruz Saavedra Victor Adrian    (DIAGRAMA GENERAL, DIAGRAMA DE FLUJO DE DATOS,DIAGRAMA DE TRANSICION DE ESTADOS)",
