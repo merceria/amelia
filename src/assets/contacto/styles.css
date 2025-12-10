@@ -1,0 +1,52 @@
+.contacto-page {
+  min-height: 100vh;
+}
+
+.contacto-titulo {
+  color: black;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contacto-grupo-card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacto-grupo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+.contacto-grupo-titulo {
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.contacto-lista-integrantes {
+  border: none;
+}
+
+.contacto-item-integrante {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+
+.contacto-item-integrante:hover {
+  background-color: #f8f9fa;
+  border-color: #667eea;
+  transform: translateX(5px);
+}
+
+.contacto-item-integrante::marker {
+  color: #667eea;
+  font-weight: bold;
+}

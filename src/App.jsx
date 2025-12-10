@@ -6,6 +6,7 @@ import MA from "./pagina/modeloA";
 import MC from "./pagina/modeloC";
 import POO from "./pagina/poo";
 import Video from "./pagina/video";
+import Contacto from "./pagina/contacto";
 
 export default function App(){
   return (
@@ -99,6 +100,15 @@ export default function App(){
                   Video
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link 
+                  className="nav-link" 
+                  to="/contacto"
+                  title="Lista de integrantes del grupo"
+                >
+                  Contacto
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -112,6 +122,7 @@ export default function App(){
             <Route path="/modelo-comportamiento" element={<MC />} />
             <Route path="/poo" element={<POO />} />
             <Route path="/video" element={<Video />} />
+            <Route path="/contacto" element={<Contacto />} />
           </Routes>
         </div>
       </div>
