@@ -3,6 +3,9 @@ import '../assets/MC/styles.css';
 import dte from '../assets/MC/DTE.jpg';
 import ER from '../assets/MC/ER.png';
 import DFD from '../assets/MC/DFD.png';
+import dg1 from '../assets/MC/dg1.PNG';
+import dg2 from '../assets/MC/dg2.PNG';
+import dg3 from '../assets/MC/dg3.PNG';
 
 export default function MC() {
   return (
@@ -14,6 +17,25 @@ export default function MC() {
       </div>
 
       <div className="row mb-4">
+        <div className="col-12">
+          <div className="card shadow-sm border-0">
+            <div className="card-header bg-gradient">
+              <h2 className="h4 mb-0">
+                <i className="bi bi-diagram-3-fill me-2"></i>
+                Diagrama General
+              </h2>
+            </div>
+            <div className="card-body">
+              <div className="text-center p-5">
+                <img src={dg1} className="img-fluid diagram-image" alt="Diagrama de Flujo de Datos" />
+              </div>
+              <div className='col-12 text-center p-5'>
+                <img src={dg2} className="img-fluid diagram-image" alt="Diagrama de Flujo de Datos" />
+                <img src={dg3} className="img-fluid diagram-image" alt="Diagrama de Flujo de Datos" />
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="col-12">
           <div className="card shadow-sm border-0">
             <div className="card-header bg-gradient">
